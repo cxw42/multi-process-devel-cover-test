@@ -8,7 +8,7 @@
 *.bs
 
 # Devel::Cover
-cover_db/
+cover_db*/
 
 # Devel::NYTProf
 nytprof.out
