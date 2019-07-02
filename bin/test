@@ -1,0 +1,25 @@
+#!perl
+use Acme::CXW::MultiProcessDevelCoverTest;
+
+our $VERSION = $Acme::CXW::MultiProcessDevelCoverTest::VERSION;
+
+exit(Acme::CXW::MultiProcessDevelCoverTest->new->run(\@ARGV));
+__END__
+
+=head1 NAME
+
+test - A test!
+
+=head1 SYNOPSIS
+
+    test <some option> <some other option>
+
+Run C<test --man> for more information
+
+=head1 ARGUMENTS
+
+B<-whatever> does something
+
+=cut
+
+# vi: set ft=perl: #
